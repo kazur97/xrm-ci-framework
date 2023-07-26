@@ -151,6 +151,7 @@
     <Compile Include="ExpandXrmSolution.cs" />
     <Compile Include="CompressXrmSolution.cs" />
     <Compile Include="GetXrmConnectionsCommand.cs" />
+    <Compile Include="RemoveXrmSolutionCommand.cs" />
     <Compile Include="SetXrmConnectionReferenceCommand.cs" />
     <Compile Include="SetXrmEnvironmentVariableValueCommand.cs" />
     <Compile Include="GetXrmEnvironmentVariableValueCommand.cs" />
@@ -282,7 +283,7 @@
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties PluginRegistration_4WorkflowAssemblyExample_1json__JSONSchema="PluginRegistrationSchema.json" PluginRegistration_4PluginAssemblyExample_1json__JSONSchema="PluginRegistrationSchema.json" />
+      <UserProperties PluginRegistration_4PluginAssemblyExample_1json__JSONSchema="PluginRegistrationSchema.json" PluginRegistration_4WorkflowAssemblyExample_1json__JSONSchema="PluginRegistrationSchema.json" />
     </VisualStudio>
   </ProjectExtensions>
   <Import Project="..\packages\System.Text.Json.6.0.2\build\System.Text.Json.targets" Condition="Exists('..\packages\System.Text.Json.6.0.2\build\System.Text.Json.targets')" />
